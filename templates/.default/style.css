@@ -1,0 +1,42 @@
+.f_feedback, .f_feedback__group, .f_feedback__result, .f_feedback__captcha, .f_feedback__input, .f_feedback__textarea, .f_feedback__button {
+	box-sizing: border-box;
+}
+.f_feedback {
+
+}
+.f_feedback__group {
+	margin-bottom: 15px;
+}
+.f_feedback__result {
+	padding: 15px;
+	color: #fff;
+	border-radius: 4px;
+	background: #00a53a;
+	margin-bottom: 15px;
+}
+.f_feedback__input, .f_feedback__textarea {
+	padding: 15px 20px;
+	border: 2px solid #e8e8e8;
+	font-size: 14px;
+}
+.f_feedback__input:focus, .f_feedback__textarea:focus {
+	border-color: #c9c9c9;
+}
+.f_feedback__result, .f_feedback__input, .f_feedback__textarea, .f_feedback__button {
+	outline: none;
+	width: 40%;
+}
+.f_feedback__input {
+
+}
+.f_feedback__textarea {
+
+}
+.f_feedback__button {
+	cursor: pointer;
+	border: none;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+	background: #3969ad;
+}
